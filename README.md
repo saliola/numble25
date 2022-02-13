@@ -1,8 +1,8 @@
-# React Wordle
+# Numble25 (forked from React Wordle)
 
 This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
-[**Try out the demo!**](https://reactle.vercel.app/)
+[**Play the game here!**](https://saliola.github.io/games/numble25/)
 
 ## Build and run
 
@@ -15,6 +15,20 @@ $> cd react-wordle
 $> npm install
 $> npm run start
 ```
+Open [http://localhost:3000](http://localhost:3000) in browser.
+
+### To deploy:
+
+Clone the repository and perform the following command line actions:
+
+```bash
+$> cd react-wordle
+$> npm install
+$> npm run build
+```
+
+This will create a directory called `build`. Transfer the contents of this
+directory to the server.
 
 ### To build/run docker container:
 
@@ -73,7 +87,6 @@ Open [http://localhost:3000](http://localhost:3000) in browser.
 - [Passwordle](https://passwordle.sp8c3.com/): Passwords
 - [Genel](https://andrewholding.github.io/gene-wordle/): Gene symbols
 - [Numble](https://rbrignall.github.io/numble/): Maths
-- [Numble25](https://saliola.github.io/games/numble25/): Maths
 
 _Want to add one to the list? Just make a pull request or [let us know via a comment here](https://github.com/cwackerfuss/react-wordle/issues/120)_
 
