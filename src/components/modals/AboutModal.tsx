@@ -17,7 +17,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         <p className="text-sm text-gray-500">
           Source code is
           {' '}
-          <a href="https://github.com/saliola/numble" className="underline font-bold">available on github</a>;
+          <a href="https://github.com/saliola/numble25" className="underline font-bold">available on github</a>;
           it is based on the
           {' '}
           <a href="https://github.com/hannahcode/wordle" className="underline font-bold">the open source clone react-wordle</a>.
