@@ -9,14 +9,19 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
-        <a
-          href="https://github.com/cwackerfuss/react-wordle"
-          className="underline font-bold"
-        >
-          check out the code here
-        </a>{' '}
+
+          This is a <i>math-themed</i> clone of
+          {' '}
+          <a href="https://www.powerlanguage.co.uk/wordle/" className="underline font-bold">Wordle</a>.
+        </p>
+        <p className="text-sm text-gray-500">
+          Source code is
+          {' '}
+          <a href="https://github.com/saliola/numble" className="underline font-bold">available on github</a>;
+          it is based on the
+          {' '}
+          <a href="https://github.com/hannahcode/wordle" className="underline font-bold">the open source clone react-wordle</a>.
+          {' '}
       </p>
     </BaseModal>
   )
